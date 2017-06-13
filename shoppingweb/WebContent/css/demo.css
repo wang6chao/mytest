@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+
+.message-l{ float:left;}
+.message-r{ float:right}
+
+.message-r .topMessage {float: left; ]padding: 0px 6px;height: 35px;line-height: 35px;}

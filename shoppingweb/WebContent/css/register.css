@@ -1,0 +1,93 @@
+/*  body{
+	background:url(images/register.jpg);
+	background-position:center; 
+	background-repeat:x-repeat; 
+}  */
+div#divBackground {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+
+div#divBackground>img {
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+
+li {
+	cursor: pointer; /*鼠标移上去变成手状*/
+	float: left;
+	list-style: none;
+}
+
+.li_left {
+	float: left;
+}
+
+.li_right {
+	float: right;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#tab1 {
+	display: none;
+}
+
+#tab2 {
+	display: none;
+}
+
+.divcsstable1 {
+	margin: 0 auto;
+	width: 350px;
+	/* border: 1px dashed #000 */
+	border-left: 2px dashed #0F0;
+	border-right: 2px dashed #0F0；
+}
+
+.divcsstable2 {
+	margin: 0 auto;
+	width: 350px;
+	border: 1px solid #000
+}
+
+
+
+.divcss5_left {
+	float: left;
+	width: 150px;
+	border: 1px solid #00F;
+	height: 50px
+}
+
+.divcss5_right {
+	float: right;
+	width: 150px;
+	border: 1px solid #00F;
+	height: 50px
+}
+
+.inputcolor {
+	color: #666666;
+}
+#main {
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	border: 0 solid #00F
+}
+td{
+height:30px;
+}

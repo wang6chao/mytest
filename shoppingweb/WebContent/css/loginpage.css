@@ -1,0 +1,37 @@
+td{
+height:30px;
+}
+
+div#divBackground {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+
+div#divBackground>img {
+	height: 100%;
+	width: 100%;
+	border: 0;
+}
+
+.divcss {
+	margin: 0 auto;
+	width: 400px;
+	border: 1px solid #000;
+}
+
+
+/* 表格垂直居中 */
+#main {
+	position: absolute;
+	width: 400px;
+	height: 200px;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	border: 0 solid #00F
+}

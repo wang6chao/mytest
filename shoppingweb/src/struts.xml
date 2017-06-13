@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+ 
+ <package name="ch01"  extends="struts-default">
+     <action name="login_ok" class="Login.LoginCtrl" method="execute">  <!--action的name属性最好不要设置为*.jsp  -->
+         <result name="success">/home.jsp</result>
+         <result name="error">/loginfailed.jsp</result>
+     </action>
+ </package>
+ 
+ <package name="ch02"  extends="struts-default">
+     <action name="registerdeal" class="Register.RegisterCtrl" method="execute">  
+         <result name="success">/home.jsp</result>
+         <result name="error">/message.jsp</result>
+     </action>
+ </package>
+ 
+ <package name="ch03"  extends="struts-default">
+     <action name="bookservlet" class="account.bookservlet">  
+         <result name="success">/home.jsp</result>
+         <result name="error">/message.jsp</result>
+     </action>
+ </package>
+
+</struts>
